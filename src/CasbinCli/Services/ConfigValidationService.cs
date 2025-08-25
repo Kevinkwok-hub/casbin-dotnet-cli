@@ -88,12 +88,9 @@ namespace CasbinCli.Services
                     validLines++;  
                 }  
   
-                if (validLines == 0)  
-                {  
-                    return new ValidationResult(false, "Policy file contains no valid policy rules");  
-                }  
-  
-                return new ValidationResult(true, $"Policy file is valid ({validLines} rules found)");  
+                return new ValidationResult(true, validLines == 0 ?   
+                "Policy file is valid (no rules found)" :   
+                $"Policy file is valid ({validLines} rules found)");  
             }  
             catch (Exception ex)  
             {  
