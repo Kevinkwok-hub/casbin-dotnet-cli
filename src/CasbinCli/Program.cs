@@ -33,7 +33,7 @@ namespace CasbinCli
         {  
             try  
             {  
-                var casbinAssembly = Assembly.GetAssembly(typeof(NetCasbin.Enforcer));  
+                var casbinAssembly = Assembly.GetAssembly(typeof(Casbin.Enforcer));  
                 return casbinAssembly?.GetName().Version?.ToString() ?? "unknown";  
             }  
             catch  
