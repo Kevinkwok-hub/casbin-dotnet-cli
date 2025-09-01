@@ -68,7 +68,8 @@ namespace CasbinCli.Services
                     return new ResponseBody { Allow = false, Explain = Array.Empty<string>() };  
                 }  
   
-                var enforcer = new Enforcer(modelPath, policyPath);  
+                var enforcer = new Enforcer(modelPath, policyPath); 
+                enforcer.AddFunction("keyMatch5", BuiltInFunctions.KeyMatch5); 
                 var parameters = ProcessParameters(args);  
   
                 if (isEnforceEx)  

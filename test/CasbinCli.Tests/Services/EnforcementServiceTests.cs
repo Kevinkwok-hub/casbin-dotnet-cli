@@ -27,7 +27,7 @@ namespace CasbinCli.Tests.Services
         public EnforcementServiceTests()  
         {  
             _service = new EnforcementService();  
-            _testDataPath = Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "..", "..", "..", "test");  
+            _testDataPath = Directory.GetCurrentDirectory();
         }  
   
         [Fact]  
