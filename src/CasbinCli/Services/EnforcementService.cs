@@ -13,8 +13,9 @@
 // limitations under the License.  
 
 using Casbin;
-using Casbin.Model;  
-using CasbinCli.Models;  
+using Casbin.Model;
+using Casbin.Functions;  
+using CasbinCli.Models;
 using Newtonsoft.Json;  
 using System.Text.RegularExpressions;  
 using System.Reflection;  
