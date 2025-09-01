@@ -12,7 +12,8 @@
 // See the License for the specific language governing permissions and  
 // limitations under the License.
 
-using CasbinCli.Models;  
+using CasbinCli.Models;
+using System.Reflection;  
 using CasbinCli.Services;  
 using FluentAssertions;  
 using Xunit;  
@@ -27,7 +28,8 @@ namespace CasbinCli.Tests.Services
         public EnforcementServiceTests()  
         {  
             _service = new EnforcementService();  
-            _testDataPath = Directory.GetCurrentDirectory();
+            var assemblyPath = Path.GetDirectoryName(typeof(EnforcementServiceTests).Assembly.Location);
+            _testDataPath = assemblyPath ?? Directory.GetCurrentDirectory();
         }  
   
         [Fact]  

@@ -26,31 +26,31 @@
     <ProjectReference Include="..\..\src\CasbinCli\CasbinCli.csproj" />
   </ItemGroup>
 
-  <ItemGroup>    
-  <None Include="..\basic_model.conf">    
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>    
-  </None>    
-  <None Include="..\basic_policy.csv">    
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>    
-  </None>    
-  <None Include="..\rbac_with_domains_model.conf">    
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>    
-  </None>    
-  <None Include="..\rbac_with_domains_policy.csv">    
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>    
-  </None>    
-  <None Include="..\abac_rule_model.conf">    
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>    
-  </None>    
-  <None Include="..\abac_rule_policy.csv">    
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>    
-  </None>    
-  <None Include="..\abac_model.conf">    
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>    
-  </None>    
-  <None Include="..\abac_policy.csv">    
-    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>    
-  </None>    
+  <ItemGroup>  
+  <None Include="..\basic_model.conf">  
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>  
+  </None>  
+  <None Include="..\basic_policy.csv">  
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>  
+  </None>  
+  <None Include="..\rbac_with_domains_model.conf">  
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>  
+  </None>  
+  <None Include="..\rbac_with_domains_policy.csv">  
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>  
+  </None>  
+  <None Include="..\abac_rule_model.conf">  
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>  
+  </None>  
+  <None Include="..\abac_rule_policy.csv">  
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>  
+  </None>  
+  <None Include="..\abac_model.conf">  
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>  
+  </None>  
+  <None Include="..\abac_policy.csv">  
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>  
+  </None>  
 </ItemGroup>
 
 </Project>
